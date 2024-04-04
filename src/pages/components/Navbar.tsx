@@ -46,7 +46,7 @@ const Navbar = () => {
         {/* Mobile nav */}
         <ul
           className={`
-        md:hidden bg-[#f1f1f1] dark:bg-[#1f2937] fixed flex flex-col justify-center items-center z-20 w-full top-0 overflow-y-auto bottom-0 py-24 pl-4
+        md:hidden bg-[#f1f1f1] fixed flex flex-col justify-center items-center z-50 w-full top-0 overflow-y-auto bottom-0 py-24 pl-4
         duration-500 ${open ? "left-0" : "left-[-100%]"}
         `}
         onClick={() => setOpen(!open)}

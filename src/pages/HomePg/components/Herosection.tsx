@@ -30,17 +30,17 @@ const Herosection = () => {
       <Navbar />
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-4 py-12">
-          <div className="flex flex-col gap-4 text-center md:text-start">
-            <h2 className="text-4xl md:text-6xl font-[Jost] font-[700]">
+          <div className="flex flex-col gap-4 text-center md:text-start" data-aos="zoom-in">
+            <h2 className="text-4xl md:text-6xl font-[Jost] font-[700]" data-aos="fade-up">
               Most <span className="text-primary">outstanding</span> blockchain
               agency
             </h2>
-            <p>
+            <p data-aos="fade-up">
               We are a blockchain consulting startup that helps you as a
               visionary, business leader, entrepreneur and founder translate
               web3 ideas into functional products for global use.
             </p>
-            <div className="flex flex-row gap-4 items-center">
+            <div className="flex flex-row gap-4 items-center mx-auto md:mx-0" data-aos="fade-up">
               <div>
                 <Button btnText="Contact Us" btnStyle="bg-primary" />
               </div>
@@ -61,7 +61,7 @@ const Herosection = () => {
       <div className="py-32 relative">
         <hr className="border-1 border-second -z-20" />
         <div className="container">
-          <div className="w-full md:w-3/4 left-0 top-0 bg-white bottom-0 right-0 flex flex-col gap-4 mx-auto rounded-xl shadow-xl md:px-24 px-4 py-12 absolute border-1 border-second z-20">
+          <div className="w-full md:w-3/4 left-0 top-0 bg-white bottom-0 right-0 flex flex-col gap-4 mx-auto rounded-xl shadow-xl md:px-24 px-4 py-12 absolute border-1 border-second z-20" >
             <p className="text-2xl text-center font-[500] md:px-8 px-0">
               Building the best web3 projects being used in Africa by Africans
             </p>
