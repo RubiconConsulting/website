@@ -15,7 +15,7 @@ const Navbar = () => {
             <img src={logo} className="w-28 h-12 rounded" alt="" />
           </div>
           <div className="text-3xl md:hidden" onClick={() => setOpen(!open)}>
-            {open ? <FaTimes /> : <FaBars />}
+            {open ? <FaBars /> : <FaBars />}
           </div>
         </div>
         <ul className="md:flex hidden uppercase items-center gap-8 font-[Poppins]">
@@ -46,32 +46,32 @@ const Navbar = () => {
         {/* Mobile nav */}
         <ul
           className={`
-        md:hidden bg-[#f1f1f1] dark:bg-[#1f2937] fixed z-10 w-full top-0 overflow-y-auto bottom-0 py-24 pl-4
+        md:hidden bg-[#f1f1f1] dark:bg-[#1f2937] fixed flex flex-col justify-center items-center z-20 w-full top-0 overflow-y-auto bottom-0 py-24 pl-4
         duration-500 ${open ? "left-0" : "left-[-100%]"}
         `}
+        onClick={() => setOpen(!open)}
         >
+          <div className="absolute top-10 right-10" onClick={() => setOpen(!open)}>
+            <FaTimes size={23} />
+          </div>
+          
           <li>
             <Link to="/" className="py-1 px-3 inline-block text-xl ">
               Home
             </Link>
           </li>
           <li>
-            <Link to="/about" className="py-1 px-3 inline-block">
+            <Link to="/" className="py-1 px-3 inline-block text-xl ">
               Blogs
             </Link>
           </li>
           <li>
-            <Link to="/service" className="py-1 px-3 inline-block">
+            <Link to="/" className="py-1 px-3 inline-block text-xl ">
               Service
             </Link>
           </li>
           <li>
-            <Link to="/stocks" className="py-1 px-3 inline-block">
-               Stocks
-            </Link>
-          </li>
-          <li>
-            <Link to="/forex" className="py-1 px-3 inline-block">
+            <Link to="/" className="py-1 px-3 inline-block">
                About
             </Link>
           </li>

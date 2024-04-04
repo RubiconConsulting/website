@@ -77,7 +77,7 @@ const Workforce = () => {
   return (
     <div>
         <div className="container">
-            <div className="w-1/2 md:w-full flex flex-col gap-4 py-8">
+            <div className="w-full md:w-1/2 flex flex-col gap-4 py-8 md:text-start text-center">
                 <p className="text-2xl font-[500]">Workforce Development and Security Assurance</p>
                 <p>Empowering Your Web3 Ecosystem with Talent Acquisition and Cybersecurity Measures</p>
             </div>
@@ -112,7 +112,7 @@ const Workforce = () => {
 
                  <div className="flex flex-col gap-6">
                     {brandItems.map((item: any) => (
-                        <div key={item.id} className="flex flex-row gap-4 justify-start items-start">
+                        <div key={item.id} className="flex flex-row gap-4 justify-start items-start" data-aos="zoom-in">
                             <img src={item.icon} alt="" />
                             <div>
                                 <h3 className="text-xl font-[500]">{item.title}</h3>

@@ -1,0 +1,1 @@
+export const hostUrl = "https://webserver-ten.vercel.app"

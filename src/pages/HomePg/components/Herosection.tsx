@@ -25,14 +25,16 @@ const Herosection = () => {
     },
   ];
 
-
   return (
-    <div >
+    <div>
       <Navbar />
-    <div className="container">
+      <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-4 py-12">
-          <div className="flex flex-col gap-4">
-            <h2 className="text-5xl font-[Jost] font-[700]">Most <span className="text-primary">outstanding</span>  blockchain agency</h2>
+          <div className="flex flex-col gap-4 text-center md:text-start">
+            <h2 className="text-4xl md:text-6xl font-[Jost] font-[700]">
+              Most <span className="text-primary">outstanding</span> blockchain
+              agency
+            </h2>
             <p>
               We are a blockchain consulting startup that helps you as a
               visionary, business leader, entrepreneur and founder translate
@@ -50,56 +52,59 @@ const Herosection = () => {
               </div>
             </div>
           </div>
-          <div>
+          <div data-aos="zoom-in">
             <img src={HeroImg} alt="" />
           </div>
         </div>
       </div>
       {/* Building the web */}
-        <div className="py-32 relative">
-          <hr className="border-1 border-second -z-20"/>
-          <div className="container">
-            <div className="w-full md:w-3/4 left-0 top-0 bg-white bottom-0 right-0 flex flex-col gap-4 mx-auto rounded-xl shadow-xl px-24 py-12 absolute border-1 border-second z-50">
-          <p className="text-2xl text-center font-[500] px-8">
-            Building the best web3 projects being used in Africa by Africans
-          </p>
-          <div className="flex justify-between items-center flex-row ">
-            <div className="flex flex-col gap-4">
-              <div className="flex flex-row gap-2 items-center">
-                <FaMarker color="#F3BA2F" />
-                <p>Transparency</p>
+      <div className="py-32 relative">
+        <hr className="border-1 border-second -z-20" />
+        <div className="container">
+          <div className="w-full md:w-3/4 left-0 top-0 bg-white bottom-0 right-0 flex flex-col gap-4 mx-auto rounded-xl shadow-xl md:px-24 px-4 py-12 absolute border-1 border-second z-20">
+            <p className="text-2xl text-center font-[500] md:px-8 px-0">
+              Building the best web3 projects being used in Africa by Africans
+            </p>
+            <div className="flex justify-between items-center flex-row ">
+              <div className="flex flex-col gap-4">
+                <div className="flex flex-row gap-2 items-center">
+                  <FaMarker color="#F3BA2F" />
+                  <p>Transparency</p>
+                </div>
+                <div className="flex flex-row gap-2 items-center">
+                  <FaMarker color="#F3BA2F" />
+                  <p>Speed</p>
+                </div>
               </div>
-              <div className="flex flex-row gap-2 items-center">
-                <FaMarker color="#F3BA2F" />
-                <p>Speed</p>
-              </div>
-            </div>
-            <div className="flex flex-col gap-4">
-              <div className="flex flex-row gap-2 items-center">
-                <FaMarker color="#F3BA2F" />
-                <p>Learning</p>
-              </div>
-              <div className="flex flex-row gap-2 items-center">
-                <FaMarker color="#F3BA2F" />
-                <p>Initiative</p>
+              <div className="flex flex-col gap-4">
+                <div className="flex flex-row gap-2 items-center">
+                  <FaMarker color="#F3BA2F" />
+                  <p>Learning</p>
+                </div>
+                <div className="flex flex-row gap-2 items-center">
+                  <FaMarker color="#F3BA2F" />
+                  <p>Initiative</p>
+                </div>
               </div>
             </div>
           </div>
-        </div> 
-          </div>
-          
         </div>
+      </div>
       {/* Services */}
       <div className="container py-12">
         <div className="w-full md:w-1/2 py-6 flex flex-col gap-4 mx-auto text-center">
-          <h3 className="font-[600] text-3xl">Services We Offer with Expertise</h3>
+          <h3 className="font-[600] text-3xl">
+            Services We Offer with Expertise
+          </h3>
           <p>
-            Expert Consulting and Strategy DevelopmentUnlocking the Potential
-            of Blockchain and AI Integration to Empower Your Web3 Journey
+            Expert Consulting and Strategy DevelopmentUnlocking the Potential of
+            Blockchain and AI Integration to Empower Your Web3 Journey
           </p>
         </div>
         <div className="w-full md:w-1/2 py-6 flex flex-col gap-4">
-          <h3 className="font-[600] text-3xl">Expert Consulting and Strategy Development</h3>
+          <h3 className="font-[600] text-3xl">
+            Expert Consulting and Strategy Development
+          </h3>
           <p>
             Unlocking the Potential of Blockchain and AI Integration to Empower
             Your Web3 Journey
