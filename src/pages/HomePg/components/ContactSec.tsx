@@ -26,12 +26,12 @@ const ContactSec = () => {
       setLoading(false);
       setName("");
       setEmail("");
-      setMessage("");
+      setMessage(""); 
     }
   }
 
   return (
-    <div className="container">
+    <div className="container" id="contact">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 justify-start items-start py-12">
             <div className="flex flex-col gap-4 pe-0 md:pe-32">
                 <h2 className="text-2xl font-[500]">Let’s Keep in Touch</h2>

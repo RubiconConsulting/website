@@ -35,7 +35,7 @@ const Workforce = () => {
     {
       id: 2,
       title: "Education and Training",
-      text: "Lorem ipsum dolor sit amet consectetur. Orci velit pellentesque vitae vitae turpis. A nulla ipsum sed viverra consectetur vitae tempus sodales. Sed ut vel venenatis montes nibh.",
+      text: "Discover top-quality training for tech enthusiasts. Whether you're delving into a specific Blockchain Protocol or seeking comprehensive Blockchain Technology education, we've got you covered. Our specialized courses ensure you're well-versed in the latest advancements and applications of Blockchain Technology.",
       icon: edulogo,
     },
     {
@@ -51,25 +51,25 @@ const Workforce = () => {
     {
         id: 1,
         title: "Maasive Farming on Rise",
-        text: "Lorem ipsum dolor sit amet consectetur. Orci velit pellentesque vitae vitae turpis. A nulla ipsum sed viverra consectetur vitae tempus sodales. Sed ut vel venenatis montes nibh.",
+        text: "Discover the world of crypto farming and learn how to earn passive income through decentralized finance (DeFi) protocols. Explore the benefits, challenges, and best practices to maximize your returns.",
         img: insight1
     },
     {
         id: 2,
         title: "Web3 space grows by 300%",
-        text: "Lorem ipsum dolor sit amet consectetur. Orci velit pellentesque vitae vitae turpis. A nulla ipsum sed viverra consectetur vitae tempus sodales. Sed ut vel venenatis montes nibh.",
+        text: "Dive into the rapid expansion of the Web3 space, witnessing a staggering 300% growth. Discover what's driving this surge and how you can be part of this revolutionary movement.",
         img: insight2
     },
     {
         id: 3,
         title: "Blockchain is new Venture",
-        text: "Lorem ipsum dolor sit amet consectetur. Orci velit pellentesque vitae vitae turpis. A nulla ipsum sed viverra consectetur vitae tempus sodales. Sed ut vel venenatis montes nibh.",
+        text: "Explore how blockchain technology is revolutionizing industries worldwide. Learn about its potential, benefits, and how you can leverage it for your business or career.",
         img: insight3
     },
     {
         id: 4,
         title: "AI is becoming integral part ...",
-        text: "Lorem ipsum dolor sit amet consectetur. Orci velit pellentesque vitae vitae turpis. A nulla ipsum sed viverra consectetur vitae tempus sodales. Sed ut vel venenatis montes nibh.",
+        text: "Explore the growing importance of artificial intelligence (AI) in today's world. Learn how AI is revolutionizing industries, enhancing efficiency, and fostering innovation.",
         img: insight4
     }
   ]
@@ -126,9 +126,9 @@ const Workforce = () => {
                 </div>
             </div>
             {/* Insight in Web 3.0 space */}
-            <div className="w-full md:w-1/2 flex flex-col gap-4">
+            <div className="w-full md:w-1/2 py-12 flex flex-col gap-4" id="blogs">
                 <h2 className="text-2xl font-[500]">Insights into the Web3 space</h2>
-                <p>Lorem ipsum dolor sit amet consectetur. Orci velit pellentesque vitae vitae turpis. A nulla ipsum sed viverra consectetur vitae tempus sodales.</p>
+                <p>Dive into the dynamic world of Web3 with our insightful articles and resources. Discover the latest trends, technologies, and applications shaping the future of the decentralized web. Stay ahead of the curve and unlock the potential of Web3 today.</p>
             </div>
             <div className="grid grid-cols-1 py-12 md:grid-cols-2 lg:grid-cols-4 gap-4 justify-start items-start">
                 {insightItems.map((item: any) => (

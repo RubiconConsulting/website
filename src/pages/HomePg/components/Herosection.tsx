@@ -11,7 +11,7 @@ const Herosection = () => {
       text: "Expert guidance and technical support for your web3 projects.",
       icon: hirelogo,
     },
-    {
+    { 
       id: 2,
       title: "AI Integration in Blockchain",
       text: "Implementing AI solutions for enhanced data analysis and user experiences.",
@@ -58,10 +58,10 @@ const Herosection = () => {
         </div>
       </div>
       {/* Building the web */}
-      <div className="py-32 relative">
+      <div className="py-32 relative" id="about">
         <hr className="border-1 border-second -z-20" />
         <div className="container">
-          <div className="w-full md:w-3/4 left-0 top-0 bg-white bottom-0 right-0 flex flex-col gap-4 mx-auto rounded-xl shadow-xl md:px-24 px-4 py-12 absolute border-1 border-second z-20" >
+          <div className="w-full md:w-3/4 left-0 top-0 bg-white bottom-0 right-0 flex flex-col gap-4 mx-auto rounded-xl shadow-xl md:px-24 px-4 py-12 absolute border-1 border-second z-4" >
             <p className="text-2xl text-center font-[500] md:px-8 px-0">
               Building the best web3 projects being used in Africa by Africans
             </p>
@@ -91,7 +91,7 @@ const Herosection = () => {
         </div>
       </div>
       {/* Services */}
-      <div className="container py-12">
+      <div className="container py-12" id="services">
         <div className="w-full md:w-1/2 py-6 flex flex-col gap-4 mx-auto text-center">
           <h3 className="font-[600] text-3xl">
             Services We Offer with Expertise

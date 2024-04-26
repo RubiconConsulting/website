@@ -9,7 +9,7 @@ const Navbar = () => {
     const [open, setOpen] = useState(false)
 
   return (
-    <div className="flex items-center font-medium justify-around">
+    <div className="flex items-center font-medium justify-around" >
         <div className="z-20 p-5 md:w-auto w-full flex justify-between">
           <div>
             <img src={logo} className="w-28 h-12 rounded" alt="" />
@@ -20,28 +20,22 @@ const Navbar = () => {
         </div>
         <ul className="md:flex hidden uppercase items-center gap-8 font-[Poppins]">
           <li>
-            <Link to="/about" className="py-7 px-3 inline-block">
+            <Link to="/" className="py-7 px-3 inline-block">
               Home
             </Link>
           </li>
           <li>
-            <Link to="/service" className="py-7 px-3 inline-block">
-              Blog
-            </Link>
+            <a href="#blogs" className="py-7 px-3 inline-block">Blogs</a>
           </li>
           <li>
-            <Link to="/service" className="py-7 px-3 inline-block">
-              Service
-            </Link>
+            <a href="#services" className="py-7 px-3 inline-block">Service</a>
           </li>
           <li>
-            <Link to="/contact" className="py-7 px-3 inline-block">
-              About
-            </Link>
+            <a href="#about"  className="py-7 px-3 inline-block">About</a>
           </li>
         </ul>
         <div className="md:block hidden">
-          <Button btnText="Contact Us" btnStyle="bg-primary"/>
+        <a href="#contact"><Button btnText="Contact Us" btnStyle="bg-primary"/></a>
         </div>
         {/* Mobile nav */}
         <ul
@@ -61,23 +55,20 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/" className="py-1 px-3 inline-block text-xl ">
-              Blogs
-            </Link>
+            <a href="#blogs" className="py-1 px-3 inline-block text-xl ">Blogs</a>
           </li>
           <li>
-            <Link to="/" className="py-1 px-3 inline-block text-xl ">
-              Service
-            </Link>
+            {/* <Link to="/" className="py-1 px-3 inline-block text-xl ">
+              Service 
+            </Link> */}
+            <a href="#services" className="py-1 px-3 inline-block text-xl ">Service</a>
           </li>
           <li>
-            <Link to="/" className="py-1 px-3 inline-block">
-               About
-            </Link>
+            <a href="#about"  className="py-1 px-3 inline-block text-xl">About</a>
           </li>
          
           <div className="py-5">
-             <Button btnText="Contact Us" btnStyle="bg-primary"/>
+            <a href="#contact"><Button btnText="Contact Us" btnStyle="bg-primary"/></a>
           </div>
         </ul>
       </div>
